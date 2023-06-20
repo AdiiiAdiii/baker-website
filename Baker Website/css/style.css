@@ -608,11 +608,11 @@ sau */
   display: none;
   position: absolute;
   background-color: #f1f1f1;
-  width: auto;
+  width: max-content;
   box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
   z-index: 1;
   left: 0px;
-  margin-top: 10px;
+  margin-top: 30px;
 }
 
 .home-dropdown-content a {
@@ -641,11 +641,11 @@ sau */
   display: none;
   position: absolute;
   background-color: #f1f1f1;
-  width: auto;
+  width: max-content;
   box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
   z-index: 1;
   left: 0px;
-  margin-top: 10px;
+  margin-top: 30px;
 }
 
 .pages-dropdown-content a {
@@ -674,11 +674,11 @@ sau */
   display: none;
   position: absolute;
   background-color: #f1f1f1;
-  width: auto;
+  width: max-content;
   box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
   z-index: 1;
   left: 0px;
-  margin-top: 10px;
+  margin-top: 30px;
 }
 
 .portfolio-dropdown-content a {
@@ -707,11 +707,11 @@ sau */
     display: none;
     position: absolute;
     background-color: #f1f1f1;
-    width: auto;
+    width: max-content;
     box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
     z-index: 1;
     left: 0px;
-    margin-top: 10px;
+    margin-top: 30px;
   }
   
 .blog-dropdown-content a {
@@ -740,11 +740,11 @@ sau */
     display: none;
     position: absolute;
     background-color: #f1f1f1;
-    width: auto;
+    width: max-content;
     box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
     z-index: 1;
     left: 0px;
-    margin-top: 10px;
+    margin-top: 30px;
   }
   
 .shop-dropdown-content a {
@@ -768,7 +768,12 @@ sau */
     position: relative;
     display: inline-block;
   }
-  
+
+.elements-dropdown-list {
+  display: flex;
+  flex-direction: column;
+}
+
 .elements-dropdown-content {
     display: none;
     position: absolute;
@@ -776,8 +781,10 @@ sau */
     width: auto;
     box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
     z-index: 1;
-    left: 0px;
-    margin-top: 10px;
+    left: 50%;
+    right: 0;
+    position: fixed;
+    margin-top: 30px;
   }
   
 .elements-dropdown-content a {
@@ -792,6 +799,7 @@ sau */
   }
   
 .elements-dropdown:hover .elements-dropdown-content {
-    display: block;
+    display: flex;
+    justify-content: space-evenly;
   }
 /* elements */
