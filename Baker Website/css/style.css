@@ -92,6 +92,77 @@ h5 {
 }
 
 
+/* ////// */
+
+/* .elements-section {
+    display: none;
+    position: absolute;
+    background-color: #f1f1f1;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+    padding: 16px;
+}
+
+.elements-section a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+  }
+
+  .elements-section a:hover {color:orange;}
+
+  .dropdown:hover .elements-section{
+    display: block;
+    margin-top: 30px;  */
+/* } */
+
+.dropdown-elements {
+    position: relative;
+}
+
+#elements-section-wrapper {
+    position: relative;
+    display: none;
+   
+}
+ .elements-section {
+
+display: flex;
+flex-direction: row;
+justify-content: space-around;
+background-color: white ;
+position: fixed;
+left: 50%;
+right:0; 
+
+}
+
+.dropdown-elements:hover #elements-section-wrapper{
+    display: block;
+}
+
+.dropdown:hover .elements-section {
+    display: block;
+}
+
+.elements-section-list {
+    display: flex;
+    flex-direction: column;
+    color: black;
+    padding: 15px;
+    width: auto;
+}
+
+.elements-section-list a {
+    color: black;
+}
+.elements-section .dropdown-content {
+    position: unset;
+    width: 100%;
+}
+
 
 .menu-icons {
     display: flex;
