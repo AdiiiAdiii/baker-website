@@ -672,3 +672,61 @@ sau */
 .product7:focus~#product7 {
     display: flex;
 }
+
+#logo-dark {
+    display: none;
+}
+
+
+
+/* Responsiveness */
+/* MOBILE */
+@media only screen and (max-width: 390px) {
+#nav {
+    justify-content: center;
+    background-color: white;
+    display: grid;
+    grid-template-columns: 1fr 4fr 1fr;
+    z-index: 5;
+    height: 100px;
+   
+}
+#mobile-burger-menu {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+}
+
+#mobile-burger-menu img {
+    width: 30px;
+  
+
+}
+
+#logo {
+    display: none;
+}
+
+#logo-container-mobile {
+    display: flex;
+    justify-content: center;
+    /* padding: 10px; */
+    
+}
+
+
+#logo-dark {
+    display: block;
+    height: 70px;
+    width: auto;
+    margin: 10px;
+    
+   
+}
+
+
+.menu-icons {
+    display: none;
+}
+
+}
