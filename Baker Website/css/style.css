@@ -851,11 +851,6 @@ sau */
     display: none;
 }
 
-/* .map-mobile {
-    display: block;
-    padding-top: 20px;
-} */
-
 .right {
     width: auto;
 }
@@ -865,15 +860,6 @@ sau */
     height: 400px;
     padding-top: 20px;
 }
-
-/* .mobile-back-to-top-btn {
-    position: fixed;
-    width: 40px;
-    height: 40px;
-    background-color: #e1be64;
-    bottom: 30px;
-    right: 30px;
-} */
 .mobile-back-to-top-btn {
 display: flex;
 justify-content: flex-end;
